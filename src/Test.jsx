@@ -4,8 +4,8 @@ function Test() {
   const nameList = []
   return (
     <div>
-      <div className="grid grid-cols-4">
-        <div></div>
+      <div className="grid grid-cols-2 md:grid-cols-4">
+        <div className='hidden md:block'></div>
         <div className='col-span-2'>
           <div className="grid grid-cols-3 gap-4">
               <div className='flex flex-col items-center'>
@@ -59,7 +59,7 @@ function Test() {
         </div>
         
          
-        <div></div>
+        <div className='hidden md:block'></div>
       </div>
       
 
